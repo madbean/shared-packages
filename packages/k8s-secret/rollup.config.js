@@ -4,7 +4,7 @@ module.exports = {
     input: 'src/index.js',
     output: {
       file: `lib/index.js`,
-      name: '@fnb/k8s-secret',
+      name: '@front-n-back/k8s-secret',
       format: 'umd'
     },
     plugins: [

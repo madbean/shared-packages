@@ -7,7 +7,7 @@
 - login on cluster: gcloud container clusters get-credentials ******************** --zone europe-west1-b --project ***********
 - npm set registry https://******.****.com
 - npm login with user mail => npm adduser --registry  https://******.****.com
-- npm i -g @fnb/k8s-secret
+- npm i -g @front-n-back/k8s-secret
 - run in shell from your nodejs project:
 - ``` loadConfig ```
 - ``` loadConfig "secret/name,configmap/name" ```

@@ -7,7 +7,7 @@
 ```js
 import { multi } from 'multi-dotenv'
 import nconf from 'nconf';
-import { SQLClient } from '@fnb/sql-client';
+import { SQLClient } from '@front-n-back/sql-client';
 
 multi();
 nconf.env();
