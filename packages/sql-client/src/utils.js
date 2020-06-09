@@ -1,6 +1,5 @@
 import { pathSatisfies, pathOr } from 'ramda';
-import { isNilOrEmpty } from '@fnb/ramda';
-
+import { isNilOrEmpty } from 'ramda-extension';
 
 export const getMessage = response => {
     const set = getRecordSet(response);

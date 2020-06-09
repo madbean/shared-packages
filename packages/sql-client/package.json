@@ -12,9 +12,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "@fnb/ramda": "^0.0.1",
     "mssql": "^5.1.0",
     "node-cache": "^4.2.1",
-    "ramda": "^0.26.1"
+    "ramda": "^0.26.1",
+    "ramda-extension": "^0.10.3"
   }
 }

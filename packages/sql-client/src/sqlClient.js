@@ -1,5 +1,6 @@
 import { getRecordSet, getRecordSetMessage } from './utils';
-import { isNilOrEmpty } from '@fnb/ramda';
+import { isNilOrEmpty } from 'ramda-extension';
+
 import sql from 'mssql';
 
 import CacheService from './cache';

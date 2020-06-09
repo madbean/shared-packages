@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "lerna exec -- rollup --config",
-    "pkg": "npm run build && lerna publish",
-    "force-publish": "npm run build && lerna exec -- npm publish --force",
+    "pkg": "npm run build && lerna publish -- --access public",
+    "force-publish": "npm run build && lerna exec -- npm publish --force --access public",
     "bootstrap": "lerna bootstrap"
   },
   "keywords": [],
