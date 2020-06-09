@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.3](https://github.com/madbean/shared-packages/compare/@fnb/sql-client@0.0.2...@fnb/sql-client@0.0.3) (2020-06-09)
+
+
+### Bug Fixes
+
+* import ramda ([f50a609](https://github.com/madbean/shared-packages/commit/f50a60968df78373cad7f10d4b5888b0d2f1c553))
+
+
+
+
+
 ## [0.0.2](https://github.com/madbean/shared-packages/compare/@fnb/sql-client@0.0.1...@fnb/sql-client@0.0.2) (2020-06-09)
 
 
