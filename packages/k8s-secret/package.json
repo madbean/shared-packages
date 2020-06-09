@@ -1,5 +1,5 @@
 {
-  "name": "@front-n-back/k8s-secret",
+  "name": "@jchurque/k8s-secret",
   "version": "0.0.2",
   "description": "k8s config and secret",
   "author": "Djo <jonathan.churque@gmail.com>",

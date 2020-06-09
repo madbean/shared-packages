@@ -4,7 +4,7 @@ module.exports = {
     input: 'src/index.js',
     output: {
       file: `lib/index.js`,
-      name: '@front-n-back/sql-client',
+      name: '@jchurque/sql-client',
       format: 'umd'
     },
     plugins: [
