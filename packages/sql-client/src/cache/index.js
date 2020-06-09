@@ -1,5 +1,5 @@
 import NodeCache from 'node-cache';
-import { isNilOrEmpty } from '@fnb/ramda';
+import { isNilOrEmpty } from 'ramda-extension';
 
 export default class Cache {
 
