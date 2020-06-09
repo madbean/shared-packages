@@ -1,6 +1,6 @@
 {
   "name": "@fnb/sql-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sql-client",
   "author": "Djo <jonathan.churque@gmail.com>",
   "license": "ISC",
