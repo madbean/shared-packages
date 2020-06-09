@@ -1,0 +1,20 @@
+{
+  "name": "@fnb/sql-client",
+  "version": "0.0.0",
+  "description": "sql-client",
+  "author": "Djo <jonathan.churque@gmail.com>",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fnb/ramda": "^0.0.0",
+    "mssql": "^5.1.0",
+    "node-cache": "^4.2.1",
+    "ramda": "^0.26.1"
+  }
+}
