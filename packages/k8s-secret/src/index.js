@@ -3,6 +3,7 @@ const { pathOr } = require('ramda');
 const { createLogger, format, transports } = require('winston');
 const fs = require('fs');
 
+const namespace = process.argv[4] || 'default'
 const filename = process.argv[3] || '.env'
 
 try {
@@ -32,7 +33,7 @@ kc.loadFromDefault();
 const k8sApi = kc.makeApiClient(k8s.CoreV1Api);
 
 const getSecret = async name => {
-  const response = await k8sApi.readNamespacedSecret(name, 'default');
+  const response = await k8sApi.readNamespacedSecret(name, namespace);
   const data = pathOr(null, ['body', 'data'], response);
 
   if(!data) return {};
@@ -41,7 +42,7 @@ const getSecret = async name => {
 }
 
 const getConfigMap = async name => {
-  const response = await k8sApi.readNamespacedConfigMap(name, 'default');
+  const response = await k8sApi.readNamespacedConfigMap(name, namespace);
   const data = pathOr(null, ['body', 'data'], response);
 
   if(!data) return {};
@@ -71,7 +72,7 @@ const getConfig = ({ type, name }) => {
   return handler[type](name);
 }
 
-const loadConfig = async (configToLoad = []) => {
+const loadKubeConfig = async (configToLoad = []) => {
   const configNames = configToLoad.map(toTypeName);
   const configs = await Promise.all(configNames.map(getConfig))
   const config =  configs.reduce((acc, config) => ({ ...acc, ...config }), {});
@@ -80,4 +81,4 @@ const loadConfig = async (configToLoad = []) => {
 
 const configToLoad = process.argv[2] && process.argv[2] != "false" && process.argv[2].split(',') || [];
 
-loadConfig(configToLoad);
+loadKubeConfig(configToLoad);

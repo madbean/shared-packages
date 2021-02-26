@@ -1,7 +1,7 @@
 {
-  "name": "@jchurque/k8s-secret",
-  "version": "0.0.3",
-  "description": "k8s config and secret",
+  "name": "@jchurque/k8s-load-config",
+  "version": "0.0.1",
+  "description": "k8s config and secret loader",
   "author": "Djo <jonathan.churque@gmail.com>",
   "license": "ISC",
   "main": "src/index.js",
@@ -20,6 +20,6 @@
     "winston": "^3.2.1"
   },
   "bin": {
-    "loadConfig": "./cli.js"
+    "loadKubeConfig": "./cli.js"
   }
 }
