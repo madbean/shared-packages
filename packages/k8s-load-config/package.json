@@ -1,6 +1,6 @@
 {
   "name": "@jchurque/k8s-load-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "k8s config and secret loader",
   "author": "Djo <jonathan.churque@gmail.com>",
   "license": "ISC",
