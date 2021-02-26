@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/madbean/shared-packages/compare/@jchurque/k8s-load-config@0.0.2...@jchurque/k8s-load-config@0.2.0) (2021-02-26)
+
+
+### Features
+
+* **rb:** rb ([ff76c48](https://github.com/madbean/shared-packages/commit/ff76c4886fd6fba09417f662068ca50bb72c87b6))
+* **up:** up ([78aa604](https://github.com/madbean/shared-packages/commit/78aa604ca787ea16bed958ec84192f86fa7b5e4d))
+
+
+
+
+
 # [0.1.0](https://github.com/madbean/shared-packages/compare/@jchurque/k8s-load-config@0.0.2...@jchurque/k8s-load-config@0.1.0) (2021-02-26)
 
 
